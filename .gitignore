@@ -1,7 +1,10 @@
 .env
 
 # For application-ignored data
-query_cache/
+query_cache/*
+
+# Keep the query_cache folder
+!query_cache/.gitkeep
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
